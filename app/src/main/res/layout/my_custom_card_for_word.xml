@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/word_item_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp">
+
+    <!-- Lesson color marker -->
+    <io.github.farzadski.essential504.Components.MyCustomSquircleCardView
+        android:id="@+id/_lesson_color"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="32dp"
+        app:layout_constraintBottom_toBottomOf="@id/txt_word"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/txt_word"
+        app:squircleBackgroundColor="#F28BB2"
+        app:squircleBottomLeftRadius="32dp"
+        app:squircleBottomRightRadius="32dp"
+        app:squircleControlFactor="0.95"
+        app:squircleStrokeColor="#000000"
+        app:squircleStrokeWidth="2dp"
+        app:squircleTopLeftRadius="32dp"
+        app:squircleTopRightRadius="32dp" />
+
+    <!-- Word -->
+    <io.github.farzadski.essential504.Components.MyCustomTextViewExtraBoldFont
+        android:id="@+id/txt_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="4dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="@string/abandon"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@id/img_is_done"
+        app:layout_constraintStart_toEndOf="@id/_lesson_color"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Bookmark status -->
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img_is_done"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="8dp"
+        android:contentDescription="@string/icon_arrow_right"
+        android:src="@drawable/ic_done"
+        android:visibility="gone"
+        app:layout_constraintStart_toEndOf="@id/txt_word"
+        app:layout_constraintTop_toTopOf="@id/txt_word" />
+
+    <!-- Navigation button -->
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img_go"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="20dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:contentDescription="@string/icon_arrow_right"
+        android:focusable="true"
+        android:padding="8dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_arrow_right"
+        app:layout_constraintBottom_toBottomOf="@id/txt_word"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/txt_word" />
+
+    <!-- Meaning -->
+    <io.github.farzadski.essential504.Components.MyCustomTextViewMediumFont
+        android:id="@+id/txt_meaning"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/desert_leave_without_planning_to_come_back_quit"
+        android:textColor="#999999"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/txt_word"
+        app:layout_constraintTop_toBottomOf="@id/txt_word" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

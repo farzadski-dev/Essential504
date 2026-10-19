@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<io.github.farzadski.essential504.Components.MyCustomSquircleCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_nav"
+    android:layout_width="match_parent"
+    android:layout_height="96dp"
+    android:elevation="32dp"
+    app:squircleBackgroundColor="#E6FFFFFF"
+    app:squircleBottomLeftRadius="128dp"
+    app:squircleBottomRightRadius="128dp"
+    app:squircleControlFactor="0.95"
+    app:squircleStrokeColor="#000000"
+    app:squircleStrokeWidth="4dp"
+    app:squircleTopLeftRadius="128dp"
+    app:squircleTopRightRadius="128dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <!-- Home -->
+        <LinearLayout
+            android:id="@+id/nav_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/icon_home"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:importantForAccessibility="no"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_home" />
+
+            <View
+                android:id="@+id/indicator_home"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_bottom_nav" />
+        </LinearLayout>
+
+        <!-- Search -->
+        <LinearLayout
+            android:id="@+id/nav_search"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:contentDescription="@string/nav_search"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/icon_search"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:importantForAccessibility="no"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_search" />
+
+            <View
+                android:id="@+id/indicator_search"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_bottom_nav"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <!-- Favorites -->
+        <LinearLayout
+            android:id="@+id/nav_favorites"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:contentDescription="@string/nav_favorites"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/icon_favorites"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:importantForAccessibility="no"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_fav" />
+
+            <View
+                android:id="@+id/indicator_favorites"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_bottom_nav"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</io.github.farzadski.essential504.Components.MyCustomSquircleCardView>

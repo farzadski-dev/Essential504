@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="my_color_10">
+        <!-- Reds -->
+        <item name="red_10" type="color">#FFFBFC</item>
+        <item name="rose_10" type="color">#FFFBFD</item>
+        <item name="ruby_10" type="color">#FEFAFB</item>
+        <item name="crimson_10" type="color">#FEFBFB</item>
+        <item name="coral_10" type="color">#FFFBFB</item>
+        <item name="salmon_10" type="color">#FFFBFB</item>
+        <item name="watermelon_10" type="color">#FFFAFB</item>
+        <item name="cherry_10" type="color">#FEFAFB</item>
+
+        <!-- Pinks -->
+        <item name="pink_10" type="color">#FEF9FC</item>
+        <item name="light_pink_10" type="color">#FFFBFD</item>
+        <item name="hot_pink_10" type="color">#FFFBFD</item>
+        <item name="blush_10" type="color">#FFFBFB</item>
+        <item name="baby_pink_10" type="color">#FFFCFD</item>
+        <item name="dusty_rose_10" type="color">#FDFAFB</item>
+        <item name="mauve_10" type="color">#FDFAFB</item>
+        <item name="bubblegum_10" type="color">#FEFAFD</item>
+
+        <!-- Purples -->
+        <item name="purple_10" type="color">#FCF9FD</item>
+        <item name="deep_purple_10" type="color">#FBF9FD</item>
+        <item name="lavender_10" type="color">#FCFAFF</item>
+        <item name="light_violet_10" type="color">#FCFBFF</item>
+        <item name="violet_10" type="color">#FCFAFE</item>
+        <item name="lilac_10" type="color">#FDFBFF</item>
+        <item name="orchid_10" type="color">#FDFAFD</item>
+        <item name="amethyst_10" type="color">#FCFAFD</item>
+        <item name="wisteria_10" type="color">#FCFAFD</item>
+        <item name="grape_10" type="color">#FCFAFD</item>
+        <item name="periwinkle_10" type="color">#FBFAFF</item>
+        <item name="plum_10" type="color">#FDFAFD</item>
+
+        <!-- Blues -->
+        <item name="indigo_10" type="color">#FAFAFD</item>
+        <item name="blue_10" type="color">#FAFBFF</item>
+        <item name="light_blue_10" type="color">#FAFCFF</item>
+        <item name="sky_blue_10" type="color">#FBFDFF</item>
+        <item name="baby_blue_10" type="color">#FCFDFF</item>
+        <item name="powder_blue_10" type="color">#FBFDFF</item>
+        <item name="ice_blue_10" type="color">#FCFEFF</item>
+        <item name="azure_10" type="color">#FBFDFF</item>
+        <item name="cerulean_10" type="color">#FAFCFF</item>
+        <item name="cornflower_10" type="color">#FBFBFF</item>
+        <item name="denim_10" type="color">#FBFCFE</item>
+        <item name="sapphire_10" type="color">#FAFBFF</item>
+        <item name="cobalt_10" type="color">#FAFBFF</item>
+        <item name="slate_blue_10" type="color">#FBFBFE</item>
+
+        <!-- Cyans -->
+        <item name="cyan_10" type="color">#FAFEFF</item>
+        <item name="aqua_10" type="color">#FBFEFF</item>
+        <item name="turquoise_10" type="color">#FBFEFE</item>
+        <item name="aquamarine_10" type="color">#FBFEFF</item>
+        <item name="mint_10" type="color">#FBFEFD</item>
+        <item name="seafoam_10" type="color">#FBFEFD</item>
+        <item name="robin_egg_10" type="color">#FAFEFE</item>
+        <item name="lagoon_10" type="color">#FAFEFE</item>
+        <item name="teal_10" type="color">#FAFDFD</item>
+
+        <!-- Greens -->
+        <item name="green_10" type="color">#FCFDFC</item>
+        <item name="light_green_10" type="color">#FDFEFD</item>
+        <item name="lime_10" type="color">#FDFEFC</item>
+        <item name="sage_10" type="color">#FDFDFC</item>
+        <item name="pistachio_10" type="color">#FDFEFC</item>
+        <item name="sea_green_10" type="color">#FBFEFC</item>
+        <item name="jade_10" type="color">#FBFEFC</item>
+        <item name="emerald_10" type="color">#FBFEFC</item>
+        <item name="fern_10" type="color">#FCFEFC</item>
+        <item name="olive_10" type="color">#FDFEFD</item>
+        <item name="avocado_10" type="color">#FDFEFD</item>
+        <item name="celadon_10" type="color">#FCFEFD</item>
+        <item name="eucalyptus_10" type="color">#FB FEFD</item>
+        <item name="matcha_10" type="color">#FDFEFD</item>
+
+        <!-- Yellows -->
+        <item name="yellow_10" type="color">#FFFFFD</item>
+        <item name="lemon_10" type="color">#FFFFFD</item>
+        <item name="butter_10" type="color">#FFFFFD</item>
+        <item name="vanilla_10" type="color">#FFFFFD</item>
+        <item name="banana_10" type="color">#FFFFFD</item>
+        <item name="canary_10" type="color">#FFFFFD</item>
+        <item name="honey_10" type="color">#FFFFFD</item>
+        <item name="sunshine_10" type="color">#FFFFFD</item>
+        <item name="corn_10" type="color">#FFFFFD</item>
+
+        <!-- Ambers / oranges -->
+        <item name="amber_10" type="color">#FFFFFC</item>
+        <item name="orange_10" type="color">#FFFDFB</item>
+        <item name="deep_orange_10" type="color">#FEFCFB</item>
+        <item name="peach_10" type="color">#FFFDFB</item>
+        <item name="apricot_10" type="color">#FFFDFB</item>
+        <item name="tangerine_10" type="color">#FFFDFB</item>
+        <item name="mango_10" type="color">#FFFDFA</item>
+        <item name="papaya_10" type="color">#FFFDFB</item>
+        <item name="pumpkin_10" type="color">#FFFDFB</item>
+        <item name="copper_10" type="color">#FEFCFB</item>
+        <item name="terracotta_10" type="color">#FEFBFA</item>
+        <item name="ochre_10" type="color">#FEFDFA</item>
+
+        <!-- Neutrals -->
+        <item name="brown_10" type="color">#FDFCFC</item>
+        <item name="blue_grey_10" type="color">#FCFDFD</item>
+        <item name="grey_10" type="color">#FEFEFE</item>
+        <item name="warm_grey_10" type="color">#FEFDFC</item>
+        <item name="cool_grey_10" type="color">#FCFDFD</item>
+        <item name="stone_10" type="color">#FEFDFC</item>
+        <item name="sand_10" type="color">#FEFDFB</item>
+        <item name="beige_10" type="color">#FEFDFB</item>
+        <item name="cream_10" type="color">#FFFFFD</item>
+        <item name="ivory_10" type="color">#FFFFFD</item>
+        <item name="linen_10" type="color">#FEFDFC</item>
+        <item name="champagne_10" type="color">#FEFDFB</item>
+        <item name="oat_10" type="color">#FEFDFB</item>
+        <item name="latte_10" type="color">#FEFDFB</item>
+        <item name="cocoa_10" type="color">#FEFCFC</item>
+        <item name="taupe_10" type="color">#FEFDFC</item>
+        <item name="mocha_10" type="color">#FEFCFB</item>
+        <item name="almond_10" type="color">#FEFDFC</item>
+
+        <!-- Modern pastels -->
+        <item name="ice_mint_10" type="color">#FCFFFD</item>
+        <item name="cotton_candy_10" type="color">#FFFCFE</item>
+        <item name="unicorn_10" type="color">#FDFBFE</item>
+        <item name="dreamy_blue_10" type="color">#FCFBFE</item>
+        <item name="cloud_10" type="color">#FCFCFE</item>
+        <item name="mist_10" type="color">#FCFDFD</item>
+        <item name="pearl_10" type="color">#FEFDFC</item>
+        <item name="snow_10" type="color">#FFFDFD</item>
+        <item name="alabaster_10" type="color">#FEFEFD</item>
+        <item name="moonlight_10" type="color">#FCFBFE</item>
+        <item name="frost_10" type="color">#FCFEFE</item>
+        <item name="haze_10" type="color">#FEFCFD</item>
+    </array>
+
+    <array name="my_color_50">
+        <!-- Reds -->
+        <item name="red_50" type="color">#FFEBEE</item>
+        <item name="rose_50" type="color">#FFF0F3</item>
+        <item name="ruby_50" type="color">#FCE4EC</item>
+        <item name="crimson_50" type="color">#FDE7EA</item>
+        <item name="coral_50" type="color">#FFF0EC</item>
+        <item name="salmon_50" type="color">#FFF1ED</item>
+        <item name="watermelon_50" type="color">#FFE9ED</item>
+        <item name="cherry_50" type="color">#FCE8EB</item>
+
+        <!-- Pinks -->
+        <item name="pink_50" type="color">#FCE4EC</item>
+        <item name="light_pink_50" type="color">#FFF0F5</item>
+        <item name="hot_pink_50" type="color">#FFF0F7</item>
+        <item name="blush_50" type="color">#FFF1F3</item>
+        <item name="baby_pink_50" type="color">#FFF5F7</item>
+        <item name="dusty_rose_50" type="color">#F7E9EB</item>
+        <item name="mauve_50" type="color">#F5EAF0</item>
+        <item name="bubblegum_50" type="color">#FDE7F3</item>
+
+        <!-- Purples -->
+        <item name="purple_50" type="color">#F3E5F5</item>
+        <item name="deep_purple_50" type="color">#EDE7F6</item>
+        <item name="lavender_50" type="color">#F3EEFF</item>
+        <item name="light_violet_50" type="color">#F5F0FF</item>
+        <item name="violet_50" type="color">#F1EAFE</item>
+        <item name="lilac_50" type="color">#F7F0FF</item>
+        <item name="orchid_50" type="color">#F9EAF7</item>
+        <item name="amethyst_50" type="color">#F1EAF8</item>
+        <item name="wisteria_50" type="color">#F0E9FA</item>
+        <item name="grape_50" type="color">#F2E8F5</item>
+        <item name="periwinkle_50" type="color">#EEF0FF</item>
+        <item name="plum_50" type="color">#F5EAF2</item>
+
+        <!-- Blues -->
+        <item name="indigo_50" type="color">#E8EAF6</item>
+        <item name="blue_50" type="color">#E3F2FD</item>
+        <item name="light_blue_50" type="color">#E1F5FE</item>
+        <item name="sky_blue_50" type="color">#EAF7FF</item>
+        <item name="baby_blue_50" type="color">#F0F8FF</item>
+        <item name="powder_blue_50" type="color">#EDF6FC</item>
+        <item name="ice_blue_50" type="color">#F1FAFF</item>
+        <item name="azure_50" type="color">#EAF8FF</item>
+        <item name="cerulean_50" type="color">#E8F5FF</item>
+        <item name="cornflower_50" type="color">#EBF0FF</item>
+        <item name="denim_50" type="color">#EAF1FA</item>
+        <item name="sapphire_50" type="color">#E8EEFA</item>
+        <item name="cobalt_50" type="color">#E8EEFF</item>
+        <item name="slate_blue_50" type="color">#EEF0F8</item>
+
+        <!-- Cyans and aquas -->
+        <item name="cyan_50" type="color">#E0F7FA</item>
+        <item name="aqua_50" type="color">#E5FAF8</item>
+        <item name="turquoise_50" type="color">#E3F8F5</item>
+        <item name="aquamarine_50" type="color">#E6FFF7</item>
+        <item name="mint_50" type="color">#E8F8F1</item>
+        <item name="seafoam_50" type="color">#E8F7F0</item>
+        <item name="robin_egg_50" type="color">#E0F8F5</item>
+        <item name="lagoon_50" type="color">#E5F8FA</item>
+        <item name="teal_50" type="color">#E0F2F1</item>
+
+        <!-- Greens -->
+        <item name="green_50" type="color">#E8F5E9</item>
+        <item name="light_green_50" type="color">#F1F8E9</item>
+        <item name="lime_50" type="color">#F9FBE7</item>
+        <item name="sage_50" type="color">#EEF3E8</item>
+        <item name="pistachio_50" type="color">#F0F6E8</item>
+        <item name="sea_green_50" type="color">#E9F6EF</item>
+        <item name="jade_50" type="color">#E5F4EC</item>
+        <item name="emerald_50" type="color">#E6F5ED</item>
+        <item name="fern_50" type="color">#EDF5E9</item>
+        <item name="olive_50" type="color">#F3F4E5</item>
+        <item name="avocado_50" type="color">#F1F5E5</item>
+        <item name="celadon_50" type="color">#EDF7EF</item>
+        <item name="eucalyptus_50" type="color">#E8F3EE</item>
+        <item name="matcha_50" type="color">#F0F5E7</item>
+
+        <!-- Yellows -->
+        <item name="yellow_50" type="color">#FFFDE7</item>
+        <item name="lemon_50" type="color">#FFFDEB</item>
+        <item name="butter_50" type="color">#FFF8E1</item>
+        <item name="vanilla_50" type="color">#FFF8E7</item>
+        <item name="banana_50" type="color">#FFF9E6</item>
+        <item name="canary_50" type="color">#FFFDE5</item>
+        <item name="honey_50" type="color">#FFF8E5</item>
+        <item name="sunshine_50" type="color">#FFFBE8</item>
+        <item name="corn_50" type="color">#FFF9E8</item>
+
+        <!-- Ambers and oranges -->
+        <item name="amber_50" type="color">#FFF8E1</item>
+        <item name="orange_50" type="color">#FFF3E0</item>
+        <item name="deep_orange_50" type="color">#FBE9E7</item>
+        <item name="peach_50" type="color">#FFF0E6</item>
+        <item name="apricot_50" type="color">#FFF1E5</item>
+        <item name="tangerine_50" type="color">#FFF0E5</item>
+        <item name="mango_50" type="color">#FFF4DF</item>
+        <item name="papaya_50" type="color">#FFF0E7</item>
+        <item name="pumpkin_50" type="color">#FFF1E6</item>
+        <item name="copper_50" type="color">#F9EDE7</item>
+        <item name="terracotta_50" type="color">#F8EAE4</item>
+        <item name="ochre_50" type="color">#F9F0DF</item>
+
+        <!-- Browns and neutrals -->
+        <item name="brown_50" type="color">#EFEBE9</item>
+        <item name="blue_grey_50" type="color">#ECEFF1</item>
+        <item name="grey_50" type="color">#FAFAFA</item>
+        <item name="warm_grey_50" type="color">#F7F5F3</item>
+        <item name="cool_grey_50" type="color">#F3F5F7</item>
+        <item name="stone_50" type="color">#F5F3F0</item>
+        <item name="sand_50" type="color">#F7F1E8</item>
+        <item name="beige_50" type="color">#F5F0E6</item>
+        <item name="cream_50" type="color">#FFF9ED</item>
+        <item name="ivory_50" type="color">#FFFFF0</item>
+        <item name="linen_50" type="color">#FAF0E6</item>
+        <item name="champagne_50" type="color">#FAF1E4</item>
+        <item name="oat_50" type="color">#F5EFE6</item>
+        <item name="latte_50" type="color">#F5EBE0</item>
+        <item name="cocoa_50" type="color">#F3E9E2</item>
+        <item name="taupe_50" type="color">#F1ECE7</item>
+        <item name="mocha_50" type="color">#F2E8E0</item>
+        <item name="almond_50" type="color">#F7EFE5</item>
+
+        <!-- Additional modern pastel shades -->
+        <item name="ice_mint_50" type="color">#EDFBF6</item>
+        <item name="cotton_candy_50" type="color">#FFF0FA</item>
+        <item name="unicorn_50" type="color">#F7F0FF</item>
+        <item name="dreamy_blue_50" type="color">#F0F5FF</item>
+        <item name="cloud_50" type="color">#F5F8FC</item>
+        <item name="mist_50" type="color">#F0F4F5</item>
+        <item name="pearl_50" type="color">#FCFBF9</item>
+        <item name="snow_50" type="color">#FFFAFA</item>
+        <item name="alabaster_50" type="color">#FAFAF5</item>
+        <item name="moonlight_50" type="color">#F3F2FA</item>
+        <item name="frost_50" type="color">#F1F8FC</item>
+        <item name="haze_50" type="color">#F5F2F8</item>
+    </array>
+
+    <array name="my_color_100">
+        <!-- Reds -->
+        <item name="red_100" type="color">#FFCDD2</item>
+        <item name="rose_100" type="color">#F8BBD0</item>
+        <item name="ruby_100" type="color">#F4B8C4</item>
+        <item name="crimson_100" type="color">#F5B9C2</item>
+        <item name="coral_100" type="color">#FFD0C7</item>
+        <item name="salmon_100" type="color">#FFCCBC</item>
+        <item name="watermelon_100" type="color">#FFC6CF</item>
+        <item name="cherry_100" type="color">#F7C1C8</item>
+
+        <!-- Pinks -->
+        <item name="pink_100" type="color">#F8BBD0</item>
+        <item name="light_pink_100" type="color">#FCE4EC</item>
+        <item name="hot_pink_100" type="color">#FBCFE8</item>
+        <item name="blush_100" type="color">#F8C8D4</item>
+        <item name="baby_pink_100" type="color">#FFDCE5</item>
+        <item name="dusty_rose_100" type="color">#EAC4CC</item>
+        <item name="mauve_100" type="color">#E8C6D6</item>
+        <item name="bubblegum_100" type="color">#F7C5DF</item>
+
+        <!-- Purples -->
+        <item name="purple_100" type="color">#E1BEE7</item>
+        <item name="deep_purple_100" type="color">#D1C4E9</item>
+        <item name="lavender_100" type="color">#DDD0F5</item>
+        <item name="light_violet_100" type="color">#E2D5FF</item>
+        <item name="violet_100" type="color">#D8C5F2</item>
+        <item name="lilac_100" type="color">#E6CCF2</item>
+        <item name="orchid_100" type="color">#EBC3E5</item>
+        <item name="amethyst_100" type="color">#D7C2E8</item>
+        <item name="wisteria_100" type="color">#D8C6F0</item>
+        <item name="grape_100" type="color">#DCC1E3</item>
+        <item name="periwinkle_100" type="color">#C9CCF5</item>
+        <item name="plum_100" type="color">#E2C0D7</item>
+
+        <!-- Blues -->
+        <item name="indigo_100" type="color">#C5CAE9</item>
+        <item name="blue_100" type="color">#BBDEFB</item>
+        <item name="light_blue_100" type="color">#B3E5FC</item>
+        <item name="sky_blue_100" type="color">#B9E2FA</item>
+        <item name="baby_blue_100" type="color">#C5E5FA</item>
+        <item name="powder_blue_100" type="color">#C6E0F2</item>
+        <item name="ice_blue_100" type="color">#C9EAF5</item>
+        <item name="azure_100" type="color">#B9E5FA</item>
+        <item name="cerulean_100" type="color">#B9DFF5</item>
+        <item name="cornflower_100" type="color">#C4D1F5</item>
+        <item name="denim_100" type="color">#C1D6F0</item>
+        <item name="sapphire_100" type="color">#C1CEEF</item>
+        <item name="cobalt_100" type="color">#BBCBFA</item>
+        <item name="slate_blue_100" type="color">#C7CFE3</item>
+
+        <!-- Cyans and aquas -->
+        <item name="cyan_100" type="color">#B2EBF2</item>
+        <item name="aqua_100" type="color">#B2E8E2</item>
+        <item name="turquoise_100" type="color">#B2E5DC</item>
+        <item name="aquamarine_100" type="color">#B7EBD9</item>
+        <item name="mint_100" type="color">#BDE8D5</item>
+        <item name="seafoam_100" type="color">#C1E9D9</item>
+        <item name="robin_egg_100" type="color">#B0E5DF</item>
+        <item name="lagoon_100" type="color">#B7E7EC</item>
+        <item name="teal_100" type="color">#B2DFDB</item>
+
+        <!-- Greens -->
+        <item name="green_100" type="color">#C8E6C9</item>
+        <item name="light_green_100" type="color">#DCEDC8</item>
+        <item name="lime_100" type="color">#F0F4C3</item>
+        <item name="sage_100" type="color">#D7E3CF</item>
+        <item name="pistachio_100" type="color">#DDEBC7</item>
+        <item name="sea_green_100" type="color">#C3E5D0</item>
+        <item name="jade_100" type="color">#BFE3CF</item>
+        <item name="emerald_100" type="color">#BDE5CE</item>
+        <item name="fern_100" type="color">#D1E5C6</item>
+        <item name="olive_100" type="color">#E2E7BE</item>
+        <item name="avocado_100" type="color">#DDE6BB</item>
+        <item name="celadon_100" type="color">#D0E8D4</item>
+        <item name="eucalyptus_100" type="color">#C7E1D4</item>
+        <item name="matcha_100" type="color">#DDE9C5</item>
+
+        <!-- Yellows -->
+        <item name="yellow_100" type="color">#FFF9C4</item>
+        <item name="lemon_100" type="color">#FFF7AD</item>
+        <item name="butter_100" type="color">#FFF1BD</item>
+        <item name="vanilla_100" type="color">#F8EEC8</item>
+        <item name="banana_100" type="color">#FFF0B3</item>
+        <item name="canary_100" type="color">#FFF6B8</item>
+        <item name="honey_100" type="color">#F9E8B5</item>
+        <item name="sunshine_100" type="color">#FFF3B0</item>
+        <item name="corn_100" type="color">#F8E8B6</item>
+
+        <!-- Ambers and oranges -->
+        <item name="amber_100" type="color">#FFECB3</item>
+        <item name="orange_100" type="color">#FFE0B2</item>
+        <item name="deep_orange_100" type="color">#FFCCBC</item>
+        <item name="peach_100" type="color">#FFD8C2</item>
+        <item name="apricot_100" type="color">#FFDBB9</item>
+        <item name="tangerine_100" type="color">#FFD2AC</item>
+        <item name="mango_100" type="color">#FFE0A3</item>
+        <item name="papaya_100" type="color">#FFD6BF</item>
+        <item name="pumpkin_100" type="color">#FAD0B4</item>
+        <item name="copper_100" type="color">#E8C4B5</item>
+        <item name="terracotta_100" type="color">#E8BFB1</item>
+        <item name="ochre_100" type="color">#E8D2A9</item>
+
+        <!-- Browns and neutrals -->
+        <item name="brown_100" type="color">#D7CCC8</item>
+        <item name="blue_grey_100" type="color">#CFD8DC</item>
+        <item name="grey_100" type="color">#F5F5F5</item>
+        <item name="warm_grey_100" type="color">#E8E2DC</item>
+        <item name="cool_grey_100" type="color">#E3E8EC</item>
+        <item name="stone_100" type="color">#E5DFD7</item>
+        <item name="sand_100" type="color">#EDE0CB</item>
+        <item name="beige_100" type="color">#E9DFC9</item>
+        <item name="cream_100" type="color">#FFF0CF</item>
+        <item name="ivory_100" type="color">#F5F0D9</item>
+        <item name="linen_100" type="color">#F0DFD0</item>
+        <item name="champagne_100" type="color">#F0DFC1</item>
+        <item name="oat_100" type="color">#E8DCCB</item>
+        <item name="latte_100" type="color">#E9D5C3</item>
+        <item name="cocoa_100" type="color">#E4D0C5</item>
+        <item name="taupe_100" type="color">#DDD2C7</item>
+        <item name="mocha_100" type="color">#E3CEBD</item>
+        <item name="almond_100" type="color">#EBDCC8</item>
+
+        <!-- Additional pastels -->
+        <item name="ice_mint_100" type="color">#C8F0E2</item>
+        <item name="cotton_candy_100" type="color">#F9D3EC</item>
+        <item name="unicorn_100" type="color">#E7D5FA</item>
+        <item name="dreamy_blue_100" type="color">#D6E2FA</item>
+        <item name="cloud_100" type="color">#E5EBF2</item>
+        <item name="mist_100" type="color">#DDE6E8</item>
+        <item name="pearl_100" type="color">#F0EDE7</item>
+        <item name="snow_100" type="color">#F8EEEE</item>
+        <item name="alabaster_100" type="color">#EEEFE5</item>
+        <item name="moonlight_100" type="color">#DFDDEC</item>
+        <item name="frost_100" type="color">#DCECF5</item>
+        <item name="haze_100" type="color">#E7DDEB</item>
+    </array>
+
+
+    <array name="my_color_200">
+        <!-- Reds -->
+        <item name="red_200" type="color">#EF9A9A</item>
+        <item name="rose_200" type="color">#F48FB1</item>
+        <item name="ruby_200" type="color">#EFA0B2</item>
+        <item name="crimson_200" type="color">#EFA0AA</item>
+        <item name="coral_200" type="color">#FFAB91</item>
+        <item name="salmon_200" type="color">#F8A995</item>
+        <item name="watermelon_200" type="color">#F49AAA</item>
+        <item name="cherry_200" type="color">#EFA0A8</item>
+
+        <!-- Pinks -->
+        <item name="pink_200" type="color">#F48FB1</item>
+        <item name="light_pink_200" type="color">#F8BBD0</item>
+        <item name="hot_pink_200" type="color">#F5A6D0</item>
+        <item name="blush_200" type="color">#F0A6B9</item>
+        <item name="baby_pink_200" type="color">#F7BFD0</item>
+        <item name="dusty_rose_200" type="color">#D99AA8</item>
+        <item name="mauve_200" type="color">#D7A0BC</item>
+        <item name="bubblegum_200" type="color">#F0A6D1</item>
+
+        <!-- Purples -->
+        <item name="purple_200" type="color">#CE93D8</item>
+        <item name="deep_purple_200" type="color">#B39DDB</item>
+        <item name="lavender_200" type="color">#C5A8ED</item>
+        <item name="light_violet_200" type="color">#CBB5F5</item>
+        <item name="violet_200" type="color">#BCA0E8</item>
+        <item name="lilac_200" type="color">#D0A8E8</item>
+        <item name="orchid_200" type="color">#DDA0D1</item>
+        <item name="amethyst_200" type="color">#B69BD8</item>
+        <item name="wisteria_200" type="color">#BCA3E3</item>
+        <item name="grape_200" type="color">#C5A0D6</item>
+        <item name="periwinkle_200" type="color">#AEB5EA</item>
+        <item name="plum_200" type="color">#D2A0C2</item>
+
+        <!-- Blues -->
+        <item name="indigo_200" type="color">#9FA8DA</item>
+        <item name="blue_200" type="color">#90CAF9</item>
+        <item name="light_blue_200" type="color">#81D4FA</item>
+        <item name="sky_blue_200" type="color">#8AC9ED</item>
+        <item name="baby_blue_200" type="color">#9DCFEF</item>
+        <item name="powder_blue_200" type="color">#9CC7E0</item>
+        <item name="ice_blue_200" type="color">#A2D9EB</item>
+        <item name="azure_200" type="color">#85D0F0</item>
+        <item name="cerulean_200" type="color">#81C4E8</item>
+        <item name="cornflower_200" type="color">#9BAFE8</item>
+        <item name="denim_200" type="color">#91B5DE</item>
+        <item name="sapphire_200" type="color">#91A8DD</item>
+        <item name="cobalt_200" type="color">#8FA9F0</item>
+        <item name="slate_blue_200" type="color">#9CAAC7</item>
+
+        <!-- Cyans and aquas -->
+        <item name="cyan_200" type="color">#80DEEA</item>
+        <item name="aqua_200" type="color">#80D8CF</item>
+        <item name="turquoise_200" type="color">#80CBC4</item>
+        <item name="aquamarine_200" type="color">#86DCC1</item>
+        <item name="mint_200" type="color">#8ED8B8</item>
+        <item name="seafoam_200" type="color">#94D7BB</item>
+        <item name="robin_egg_200" type="color">#75D3CA</item>
+        <item name="lagoon_200" type="color">#82D4DD</item>
+        <item name="teal_200" type="color">#80CBC4</item>
+
+        <!-- Greens -->
+        <item name="green_200" type="color">#A5D6A7</item>
+        <item name="light_green_200" type="color">#C5E1A5</item>
+        <item name="lime_200" type="color">#E6EE9C</item>
+        <item name="sage_200" type="color">#B9CEAC</item>
+        <item name="pistachio_200" type="color">#C7DDA7</item>
+        <item name="sea_green_200" type="color">#A6D8B7</item>
+        <item name="jade_200" type="color">#98D1B1</item>
+        <item name="emerald_200" type="color">#91D3AB</item>
+        <item name="fern_200" type="color">#B5D5A2</item>
+        <item name="olive_200" type="color">#D2D99A</item>
+        <item name="avocado_200" type="color">#C8D795</item>
+        <item name="celadon_200" type="color">#AFD9B7</item>
+        <item name="eucalyptus_200" type="color">#A0CFB8</item>
+        <item name="matcha_200" type="color">#C5D99E</item>
+
+        <!-- Yellows -->
+        <item name="yellow_200" type="color">#FFF59D</item>
+        <item name="lemon_200" type="color">#FFF176</item>
+        <item name="butter_200" type="color">#FFE89A</item>
+        <item name="vanilla_200" type="color">#EEDD9D</item>
+        <item name="banana_200" type="color">#FFE082</item>
+        <item name="canary_200" type="color">#FFEE80</item>
+        <item name="honey_200" type="color">#F2D783</item>
+        <item name="sunshine_200" type="color">#FFE66D</item>
+        <item name="corn_200" type="color">#F0D783</item>
+
+        <!-- Ambers and oranges -->
+        <item name="amber_200" type="color">#FFEE58</item>
+        <item name="orange_200" type="color">#FFCC80</item>
+        <item name="deep_orange_200" type="color">#FFAB91</item>
+        <item name="peach_200" type="color">#FFBFA3</item>
+        <item name="apricot_200" type="color">#FFC38F</item>
+        <item name="tangerine_200" type="color">#FFB574</item>
+        <item name="mango_200" type="color">#FFD06B</item>
+        <item name="papaya_200" type="color">#FFB99A</item>
+        <item name="pumpkin_200" type="color">#F4B18B</item>
+        <item name="copper_200" type="color">#D8A58F</item>
+        <item name="terracotta_200" type="color">#D6A08D</item>
+        <item name="ochre_200" type="color">#D8BB7D</item>
+
+        <!-- Browns and neutrals -->
+        <item name="brown_200" type="color">#BCAAA4</item>
+        <item name="blue_grey_200" type="color">#B0BEC5</item>
+        <item name="grey_200" type="color">#EEEEEE</item>
+        <item name="warm_grey_200" type="color">#D3C8BE</item>
+        <item name="cool_grey_200" type="color">#C5CED5</item>
+        <item name="stone_200" type="color">#CEC5BA</item>
+        <item name="sand_200" type="color">#DCC8A9</item>
+        <item name="beige_200" type="color">#D8C7A7</item>
+        <item name="cream_200" type="color">#F1DDAA</item>
+        <item name="ivory_200" type="color">#E5DDB6</item>
+        <item name="linen_200" type="color">#DFC5AE</item>
+        <item name="champagne_200" type="color">#E3C99C</item>
+        <item name="oat_200" type="color">#D5C4AA</item>
+        <item name="latte_200" type="color">#D6B89F</item>
+        <item name="cocoa_200" type="color">#D1B5A5</item>
+        <item name="taupe_200" type="color">#C7B7A8</item>
+        <item name="mocha_200" type="color">#D0B19A</item>
+        <item name="almond_200" type="color">#DCC5A6</item>
+
+        <!-- Additional pastels -->
+        <item name="ice_mint_200" type="color">#A2E5CF</item>
+        <item name="cotton_candy_200" type="color">#F0B5DD</item>
+        <item name="unicorn_200" type="color">#D3B6F0</item>
+        <item name="dreamy_blue_200" type="color">#B8C9F0</item>
+        <item name="cloud_200" type="color">#CDD7E3</item>
+        <item name="mist_200" type="color">#C3D3D6</item>
+        <item name="pearl_200" type="color">#DDD8CE</item>
+        <item name="snow_200" type="color">#EEDDDD</item>
+        <item name="alabaster_200" type="color">#DDE0D2</item>
+        <item name="moonlight_200" type="color">#C8C5DD</item>
+        <item name="frost_200" type="color">#BBD9E8</item>
+        <item name="haze_200" type="color">#D3C3D8</item>
+    </array>
+
+    <array name="extra">
+        <item name="grey_1000b" type="color">#000000</item>
+        <item name="grey_1000w" type="color">#ffffff</item>
+    </array>
+
+</resources>

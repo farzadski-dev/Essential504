@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_main_relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <io.github.farzadski.essential504.Components.MyCustomGlowBackgroundView
+        android:id="@+id/ambientGlow"
+        android:layout_width="148dp"
+        android:layout_height="match_parent"
+        app:glow1BlurRadius="740dp"
+
+        app:glow1Color="#FFF9C4"
+        app:glow1Height="0.38"
+        app:glow1Opacity="0.6"
+        app:glow1Rotation="12"
+        app:glow1Width="0.35"
+        app:glow1X="0.60"
+
+        app:glow1Y="0.05"
+        app:glow2BlurRadius="740dp"
+        app:glow2Color="#F8BBD0"
+        app:glow2Height="0.38"
+        app:glow2Opacity="0.45"
+        app:glow2Rotation="-16"
+        app:glow2Width="0.60"
+
+
+        app:glow2X="0.55"
+        app:glow2Y="0.32"
+        app:glowAnimated="true"
+        app:glowAnimationDistance="12dp"
+
+        app:glowAnimationDuration="5000"
+        app:glowBackgroundColor="#E0F7FA"
+        app:glowEnabled="true" />
+
+
+    <io.github.farzadski.essential504.Components.MyCustomTextViewExtraBoldFont
+        android:id="@+id/txt_504"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="95dp"
+        android:text="@string/_504"
+        android:textSize="96sp" />
+
+
+    <io.github.farzadski.essential504.Components.MyCustomTextViewExtraBoldFont
+        android:id="@+id/txt_absolutely_essential_words"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_504"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="-24dp"
+        android:text="@string/absolutely_essential_words"
+        android:textSize="24sp" />
+
+
+    <io.github.farzadski.essential504.Components.MyCustomTextViewMediumFont
+        android:id="@+id/txt_splash_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_absolutely_essential_words"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="64dp"
+        android:text="@string/splash_text"
+        android:textSize="24sp" />
+
+
+    <io.github.farzadski.essential504.Components.MyCustomSquircleCardView
+        android:id="@+id/btn_go"
+        android:layout_width="128dp"
+        android:layout_height="96dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="64dp"
+        app:squircleBackgroundColor="#E0F7FA"
+        app:squircleBottomLeftRadius="48dp"
+        app:squircleBottomRightRadius="48dp"
+        app:squircleControlFactor="0.95"
+        app:squircleStrokeColor="#000000"
+        app:squircleStrokeWidth="4dp"
+        app:squircleTopLeftRadius="48dp"
+        app:squircleTopRightRadius="48dp">
+
+        <io.github.farzadski.essential504.Components.MyCustomTextViewExtraBoldFont
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/go"
+            android:textSize="16sp" />
+
+    </io.github.farzadski.essential504.Components.MyCustomSquircleCardView>
+
+</RelativeLayout>

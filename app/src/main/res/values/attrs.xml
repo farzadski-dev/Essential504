@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyCustomTextView">
+        <attr name="customFont" format="string" />
+        <attr name="customFontFamily" format="enum">
+            <enum name="montserrat_extra_bold" value="0" />
+            <enum name="montserrat_medium" value="1" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="MyCustomGlowBackgroundView">
+        <!-- General -->
+        <attr name="glowBackgroundColor" format="color" />
+        <attr name="glowEnabled" format="boolean" />
+
+        <!-- First glow -->
+        <attr name="glow1Color" format="color" />
+        <attr name="glow1X" format="float" />
+        <attr name="glow1Y" format="float" />
+        <attr name="glow1Width" format="float" />
+        <attr name="glow1Height" format="float" />
+        <attr name="glow1BlurRadius" format="dimension" />
+        <attr name="glow1Opacity" format="float" />
+        <attr name="glow1Rotation" format="float" />
+
+        <!-- Second glow -->
+        <attr name="glow2Color" format="color" />
+        <attr name="glow2X" format="float" />
+        <attr name="glow2Y" format="float" />
+        <attr name="glow2Width" format="float" />
+        <attr name="glow2Height" format="float" />
+        <attr name="glow2BlurRadius" format="dimension" />
+        <attr name="glow2Opacity" format="float" />
+        <attr name="glow2Rotation" format="float" />
+
+        <!-- Animation -->
+        <attr name="glowAnimated" format="boolean" />
+        <attr name="glowAnimationDistance" format="dimension" />
+        <attr name="glowAnimationDuration" format="integer" />
+    </declare-styleable>
+
+
+    <declare-styleable name="MyCustomSquircleCardView">
+        <attr name="squircleTopLeftRadius" format="dimension" />
+        <attr name="squircleTopRightRadius" format="dimension" />
+        <attr name="squircleBottomRightRadius" format="dimension" />
+        <attr name="squircleBottomLeftRadius" format="dimension" />
+        <attr name="squircleControlFactor" format="float" />
+        <attr name="squircleBackgroundColor" format="color" />
+
+        <attr name="squircleStrokeWidth" format="dimension" />
+        <attr name="squircleStrokeColor" format="color" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<io.github.farzadski.essential504.Components.MyCustomSquircleCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="32dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="32dp"
+    android:layout_marginBottom="16dp"
+    app:squircleBackgroundColor="#E8F5E9"
+    app:squircleBottomLeftRadius="64dp"
+    app:squircleBottomRightRadius="64dp"
+    app:squircleControlFactor="0.95"
+    app:squircleStrokeColor="#000000"
+    app:squircleStrokeWidth="4dp"
+    app:squircleTopLeftRadius="64dp"
+    app:squircleTopRightRadius="64dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:orientation="horizontal">
+
+
+        <io.github.farzadski.essential504.Components.MyCustomTextViewExtraBoldFont
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson"
+            android:textSize="24sp" />
+
+
+        <io.github.farzadski.essential504.Components.MyCustomTextViewMediumFont
+            android:id="@+id/txt_lesson_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_title"
+            android:text="@string/_1"
+            android:textSize="48sp" />
+
+
+        <io.github.farzadski.essential504.Components.MyCustomTextViewExtraBoldFont
+            android:id="@+id/txt_lesson_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:text="@string/_75_ncompleted"
+            android:textSize="16sp" />
+
+
+        <io.github.farzadski.essential504.Components.MyCustomSquircleCardView
+            android:id="@+id/btn_go"
+            android:layout_width="128dp"
+            android:layout_height="96dp"
+            android:layout_below="@+id/txt_lesson_status"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="48dp"
+            app:squircleBackgroundColor="#FFFFFF"
+            app:squircleBottomLeftRadius="48dp"
+            app:squircleBottomRightRadius="48dp"
+            app:squircleControlFactor="0.95"
+            app:squircleStrokeColor="#000000"
+            app:squircleStrokeWidth="4dp"
+            app:squircleTopLeftRadius="48dp"
+            app:squircleTopRightRadius="48dp">
+
+            <io.github.farzadski.essential504.Components.MyCustomTextViewExtraBoldFont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/go"
+                android:textSize="16sp" />
+
+        </io.github.farzadski.essential504.Components.MyCustomSquircleCardView>
+
+
+    </RelativeLayout>
+
+
+</io.github.farzadski.essential504.Components.MyCustomSquircleCardView>
+
